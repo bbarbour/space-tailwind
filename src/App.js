@@ -27,29 +27,29 @@ function App() {
           </div>
         </div>
 
-        <div className=" block lg:flex lg:justify-between pt-10 mx-auto my-auto lg:pt-40 lg:pr-40">
+        <div className=" block xl:flex lg:justify-between pt-10 mx-auto my-auto xl:pt-40 xl:pr-40">
           <div className="block">
             <div className="flex ml-0">
-              <div className="font-barlow mx-auto lg:ml-2 lg:p-4 uppercase text-xl lg:text-3xl
-               text-spaceGray tracking-widest">So you want to travel to</div>
+              <div className="font-barlow mx-auto xl:ml-2 xl:p-4 uppercase text-xl lg:text-3xl
+               text-spaceGray tracking-widest">So, you want to travel to</div>
             </div> <div className="flex">
-              <h1 className="mx-auto mt-3 lg:ml-0 lg:p-4 font-bellefair uppercase text-white 
+              <h1 className="mx-auto mt-3 xl:ml-0 xl:p-4 font-bellefair uppercase text-white 
             text-8xl md:text-9xl tracking-widest"> Space</h1>
             </div>
 
-            <div className="flex mx-auto p-0 justify-around lg:justify-start">
+            <div className="flex mx-auto p-0 justify-around xl:justify-start">
             <div className="text-spaceGray text-center 
-            lg:text-left p-4 pr-10 pb-8 md:p-3 lg:p-4 lg:ml-4 items-center
-        text-xl font-barlow mt-10 w-screen md:w-7/12  lg:w-3/5">Let's face it; if you want to go to
+            lg:text-left p-4 pr-10 pb-8 md:p-3 xl:p-4 xl:ml-4 items-center
+        text-xl font-barlow mt-10 w-screen md:w-7/12  xl:w-3/5">Let's face it; if you want to go to
               space, you might as well genuinely go to outer
               space and not hover kind of on the edge of it. Well sit
               back, and relax because we'll give you a truly out of this
               world experience!</div>
               </div>
           </div>
-          <div className='p-4 pt-16 lg:pt-12'>
+          <div className='p-4 pt-16 xl:pt-36 items-baseline'>
             <div className=" w-[225px] h-[225px] t-[495px] rounded-full bg-white mx-auto my-auto  flex">
-              <div className=" my-auto font-bellefair text-6xl  mx-auto">
+              <div className=" my-auto font-bellefair text-3xl  mx-auto uppercase tracking-widest text-darkGray">
                 Explore
               </div>
             </div>
