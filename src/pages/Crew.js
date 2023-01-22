@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Navigation
+ from '../components/Navigation'
 function Crew() {
     return (
-        <div className=" block w-fit xl:flex lg:justify-between pt-10 mx-auto my-auto xl:pt-40 xl:pr-40">
-            <div className="text-white font-bellefair text-3xl uppercase min-w-full">Hello Crew</div>
+        <div className="bg-crew-mobile min-h-screen   md:bg-crew-tablet xl:bg-crew-desktop  bg-no-repeat bg-cover flex">
+            <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
+                <Navigation />
+
+                <div className="text-white font-bellefair text-3xl uppercase min-w-full">Hello Crew</div>
+            </div>
         </div>
     )
 }
