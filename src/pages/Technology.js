@@ -23,7 +23,7 @@ function Technology() {
 
 
     return (
-        <div className="bg-tour-mobile min-h-screen   md:bg-tour-tablet xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
+        <div className="bg-tech-mobile min-h-screen   md:bg-tech-tablet xl:bg-tech-desktop  bg-no-repeat bg-cover flex">
             <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
                 <Navigation />
                 <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
