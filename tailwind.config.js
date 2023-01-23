@@ -29,6 +29,9 @@ module.exports = {
         darkGray : '#0B0D17',
         spaceGray : '#D0D6F9'
 
+      },
+      screens: {
+        'xs': '370px'
       }
     }
    

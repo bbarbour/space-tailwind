@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation'
 function Home() {
     return (
         <div className="bg-mobile-img min-h-screen   md:bg-tablet-img xl:bg-desktop-img  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
+            <div className="md:mx-auto my-auto min-w-full block pt-4 mt-8   ">
             <Navigation />
                 <div className=" block xl:flex lg:justify-between pt-10 mx-auto my-auto xl:pt-40 xl:pr-40">
                     <div className="block">
@@ -27,7 +27,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='p-4 pt-16 xl:pt-36 items-baseline'>
-                        <div className=" w-[225px] h-[225px] t-[495px] rounded-full bg-white mx-auto my-auto  flex hover:shadow-[0_0_0_45px_rgba(255,255,255,0.2)] hover:cursor-pointer">
+                        <div className=" w-[225px] h-[225px] t-[495px] rounded-full bg-white mx-auto my-auto  flex hover:shadow-[0_0_0_45px_rgba(255,255,255,0.2)] hover:cursor-pointer duration-500">
                             <div className=" my-auto font-bellefair text-3xl  mx-auto uppercase tracking-widest text-darkGray">
                                 Explore
                             </div>
