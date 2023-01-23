@@ -27,7 +27,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='p-4 pt-16 xl:pt-36 items-baseline'>
-                        <div className=" w-[225px] h-[225px] t-[495px] rounded-full bg-white mx-auto my-auto  flex hover:shadow-[0_0_0_45px_rgba(255,255,255,0.2)] hover:cursor-pointer">
+                        <div className=" w-[225px] h-[225px] t-[495px] rounded-full bg-white mx-auto my-auto  flex hover:shadow-[0_0_0_45px_rgba(255,255,255,0.2)] hover:cursor-pointer duration-500">
                             <div className=" my-auto font-bellefair text-3xl  mx-auto uppercase tracking-widest text-darkGray">
                                 Explore
                             </div>

@@ -25,8 +25,8 @@ function Tours() {
 
 
     return (
-        <div className="bg-tour-mobile min-h-screen   md:bg-tour-tablet xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
+        <div className="bg-tour-mobile min-h-screen lg:bg-tour-tablet xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
+            <div className="mx-auto my-auto min-w-full block sm:p-4 sm:m-8 mt-0 ">
                 <Navigation />
                 <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
                     <span className="text-white/25 pr-3">01</span>
@@ -34,11 +34,11 @@ function Tours() {
                 </div>
                 <div className="block lg:flex">
 
-                    <div className="mx-auto my-auto w-1/3 mt-16 lg:p-6 lg:m-5 lg:ml-20 lg:mt-20" >
+                    <div className="mx-auto my-auto sm:w-1/3 sm:mt-16 lg:p-6 lg:m-5 lg:ml-20 lg:mt-20" >
                         <img src={imgUrls[destination]} alt="moon"></img>
                     </div>
-                    <div className="w-2/3 text-white  mx-auto p-3 mt-10 lg:p-6 lg:mt-20 lg:ml-10" >
-                        <div className="flex mx-auto justify-between w-[400px] mb-5 font-barlow-condensed uppercase tracking-[2.7px] text-xl">
+                    <div className="w-2/3 text-white  mx-auto sm:p-3 sm:mt-10 lg:p-6 lg:mt-20 lg:ml-10" >
+                        <div className="flex mx-auto justify-between sm:w-[400px] sm:mb-5 font-barlow-condensed uppercase tracking-[2.7px] sm:text-xl">
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(0); }}>Moon</button>
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(1); }}>Mars</button>
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(2); }}>Europa</button>
