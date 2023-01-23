@@ -26,8 +26,10 @@ function Tours() {
 
     return (
         <div className="bg-tour-mobile min-h-screen lg:bg-tour-tablet xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block sm:p-4 sm:m-8 mt-0 ">
+            <div className="mx-auto my-auto min-w-full block pt-4 mt-8 ">
+              
                 <Navigation />
+   
                 <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
                     <span className="text-white/25 pr-3">01</span>
                     Pick your destination
@@ -46,7 +48,7 @@ function Tours() {
                         
                         </div>
                         <div className="flex mb-10">
-                            <h1 className="mx-auto mt-3 font-bellefair uppercase text-white text-7xl  tracking-widest"> 
+                            <h1 className="mx-auto mt-3 font-bellefair uppercase text-white text-7xl duration-300 tracking-widest"> 
                             {data.destinations[destination].name}</h1>
                         </div>
                         <div className="mx-auto lg:px-36">

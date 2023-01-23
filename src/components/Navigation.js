@@ -45,20 +45,20 @@ function Navigation() {
 
       {/* mobile menu - not sure i need this here yet  */}
 
-      <div className="block justify-end absolute top-0 right-0">
-        <div id="hamburger" className={`${!isOpen ? 'flex' : 'hidden'}  w-full mr-auto 
+      <div className="block justify-end absolute top-0 p-0 m-0  right-0">
+        <div id="hamburger" className={`${!isOpen ? 'flex' : 'hidden'} pr-6  w-full 
               justify-end xl:hidden text-white hover:cursor-pointer hover:text-spaceGray p-1`}
               onClick={() => { toggleClick(); }}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" /></g></svg>
         </div>
         <div id="close" className={`${isOpen ? 'flex' : 'hidden'} 
                 relative w-full mr-auto justify-end xl:hidden text-white hover:cursor-pointer
-                 hover:text-spaceGray  bg-spaceGray/10 backdrop-blur-lg min-w-[300px] top-0 p-2`}
+                 hover:text-spaceGray  bg-spaceGray/10 backdrop-blur-lg min-w-[300px] top-0 p-2 pr-6`}
           onClick={() => { toggleClick(); }}>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" /><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" /></g></svg>
         </div>
 
-        <div id="nav" className={`${isOpen ? 'block translate-x-0' : 'translate-x-full'}  right-0 xl:hidden justify-end mr-auto
+        <div id="nav" className={`${isOpen ? 'block translate-x-0' : 'translate-x-full'}  overflow-hidden right-0 xl:hidden justify-end mr-auto
          bg-spaceGray/10 backdrop-blur-lg h-screen shadow-md duration-300`}>
           <Link to="/" className="mx-auto my-auto ">
             <h3 className="font-barlow  mx-auto my-auto text-white py-2 ml-2 text-lg uppercase">

@@ -20,7 +20,7 @@ function Crew() {
 
     return (
         <div className="bg-crew-mobile min-h-screen   md:bg-crew-tablet xl:bg-crew-desktop  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
+            <div className="mx-auto my-auto min-w-full block pt-4 mt-8 ">
                 <Navigation />
                 <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
                     <span className="text-white/25 pr-3">02</span>

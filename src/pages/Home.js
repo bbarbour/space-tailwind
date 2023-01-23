@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation'
 function Home() {
     return (
         <div className="bg-mobile-img min-h-screen   md:bg-tablet-img xl:bg-desktop-img  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block p-4 m-8 mt-0 ">
+            <div className="md:mx-auto my-auto min-w-full block pt-4 mt-8   ">
             <Navigation />
                 <div className=" block xl:flex lg:justify-between pt-10 mx-auto my-auto xl:pt-40 xl:pr-40">
                     <div className="block">
