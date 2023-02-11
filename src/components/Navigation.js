@@ -59,7 +59,7 @@ function Navigation() {
         </div>
 
         <div id="nav" className={`${isOpen ? 'block translate-x-0' : 'translate-x-full'}  overflow-hidden right-0 xl:hidden justify-end mr-auto
-         bg-spaceGray/10 backdrop-blur-lg h-screen shadow-md duration-300`}>
+         bg-spaceGray/10 backdrop-blur-lg h-[800px] shadow-md duration-300`}>
           <Link to="/" className="mx-auto my-auto ">
             <h3 className="font-barlow  mx-auto my-auto text-white py-2 ml-2 text-lg uppercase">
               <span className='text-lg text-white font-barlow-condensed  font-extrabold pr-1'>00</span>

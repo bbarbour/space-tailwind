@@ -25,29 +25,28 @@ function Tours() {
 
 
     return (
-        <div className="bg-tour-mobile min-h-screen lg:bg-tour-tablet xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
-            <div className="mx-auto my-auto min-w-full block pt-4 mt-8 ">
+        <div className="bg-tour-mobile min-h-screen lg:h-768 lg:w-1024 lg:bg-tour-tablet xl:h-900 xl:w-1440 xl:bg-tour-desktop  bg-no-repeat bg-cover flex">
+            <div className="mx-auto my-auto min-w-screen overflow-x-hidden block pt-4 mt-8 ">
               
                 <Navigation />
    
-                <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
+                <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full  mt-10 ml-10 xl:mt-32 xl:ml-32">
                     <span className="text-white/25 pr-3">01</span>
                     Pick your destination
                 </div>
-                <div className="block lg:flex">
-
-                    <div className="mx-auto my-auto sm:w-1/3 sm:mt-16 lg:p-6 lg:m-5 lg:ml-20 lg:mt-20" >
+                <div className="block  lg:flex">
+                    <div className="mx-auto my-auto p-7 sm:w-1/3 sm:mt-16 lg:p-6 lg:m-5 lg:ml-20 lg:mt-20" >
                         <img src={imgUrls[destination]} alt="moon"></img>
                     </div>
-                    <div className="w-2/3 text-white  mx-auto sm:p-3 sm:mt-10 lg:p-6 lg:mt-20 lg:ml-10" >
-                        <div className="flex mx-auto justify-between sm:w-[400px] sm:mb-5 font-barlow-condensed uppercase tracking-[2.7px] sm:text-xl">
+                    <div className="w-2/3 text-white pt-4 mx-auto p-3 sm:mt-10 lg:p-6 lg:mt-20 lg:ml-10 " >
+                        <div className="flex mx-auto justify-between sm:mb-5 w-full  sm:w-1/2 font-barlow-condensed uppercase tracking-[2.7px] sm:text-xl">
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(0); }}>Moon</button>
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(1); }}>Mars</button>
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(2); }}>Europa</button>
                             <button href='#' className='uppercase tracking-[2.7px]' onClick={() => { handleTourClick(3); }}>Titan</button>
                         
                         </div>
-                        <div className="flex mb-10">
+                        <div className="flex pt-4 mb-10">
                             <h1 className="mx-auto mt-3 font-bellefair uppercase text-white text-7xl duration-300 tracking-widest"> 
                             {data.destinations[destination].name}</h1>
                         </div>
