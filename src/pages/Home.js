@@ -1,9 +1,16 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import Bgmobile from '../assets/home/background-home-mobile.jpg'
+import BgDesktop from '../assets/home/background-home-desktop.jpg'
+import BgTablet from '../assets/home/background-home-tablet.jpg'
 
 function Home() {
     return (
-        <div className="bg-mobile-img min-h-screen   md:bg-tablet-img xl:bg-desktop-img  bg-no-repeat bg-cover flex">
+        <div className="min-h-screen   md:bg-tablet-img xl:bg-desktop-img  bg-no-repeat bg-cover transition ease-in delay-150 flex">
+         <img className="md:hidden object-cover absolute -z-10 w-screen h-screen top-0 left-0 " alt="moon" src={Bgmobile}></img>
+         <img className="hidden" alt="background" src={BgDesktop}></img>
+         <img className="hidden" alt="background" src={BgTablet}></img>
+         
             <div className="md:mx-auto my-auto min-w-screen min-h-screen overflow-x-hidden block pt-4 mt-8   ">
             <Navigation />
                 <div className=" block xl:flex lg:justify-between pt-10 mx-auto my-auto xl:pt-40 xl:pr-40">

@@ -7,6 +7,9 @@ import CapsuleLandscape from '../assets/technology/image-space-capsule-landscape
 import CapsulePotrait from '../assets/technology/image-space-capsule-portrait.jpg'
 import SpaceportLandscape from '../assets/technology/image-spaceport-landscape.jpg'
 import SpaceportPotrait from '../assets/technology/image-spaceport-portrait.jpg'
+import BackgroundDesktop from '../assets/technology/background-technology-desktop.jpg'
+import BackgroundMobile from '../assets/technology/background-technology-mobile.jpg'
+import BackgroundTablet from '../assets/technology/background-technology-tablet.jpg'
 import data from '../data/data.json'
 
 
@@ -24,6 +27,10 @@ function Technology() {
 
     return (
         <div className="bg-tech-mobile min-h-screen   md:bg-tech-tablet xl:bg-tech-desktop  bg-no-repeat bg-cover flex">
+             <img className="hidden" alt="background" src={BackgroundDesktop}></img>
+             <img className="hidden" alt="background" src={BackgroundMobile}></img>
+            <img className="hidden" alt="background" src={BackgroundTablet}></img>
+         
             <div className="mx-auto my-auto min-w-full block pt-4 mt-8 ">
                 <Navigation />
                 <div className="text-white font-barlow-condensed text-3xl tracking-widest uppercase min-w-full mt-10 ml-10 xl:mt-32 xl:ml-32">
@@ -33,7 +40,7 @@ function Technology() {
 
                 <div className="block lg:flex">
                     <div className="text-white mx-auto px-0 py-3 mt-10 lg:p-6 lg:mt-20 lg:ml-10" >
-                         <div className="min-w-full  mx-auto xl:hidden" >
+                         <div className="min-w-full  mx-auto lg:hidden" >
                                 <img src={imgUrlsLandscape[tech]} width="100%" alt="moon"></img>
                         </div>
                         <div className="w-1/2 mx-auto block">
@@ -45,8 +52,8 @@ function Technology() {
                             </div>
                         </div>
                     </div>
-                    <div className="block xl:flex">
-                        <div className="block p-4 xl:flex xl:p-2 ">
+                    <div className="block lg:flex">
+                        <div className="block p-4 lg:flex xl:p-2 ">
                             <div className='block mx-auto xl:mx-10'>
                                 <div className="font-barlow uppercase text-xl text-spaceGray  pt-2">
                                     The terminology
